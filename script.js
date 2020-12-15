@@ -10,7 +10,7 @@ var questions = [
   "A very useful tool used during development and debugging for printing content to the debugger is:",];
 
 var answers = [
-  ["string", "booleans", "alerts", "numbers"],
+  ["1. string", "2. booleans", "3. alerts", "4. numbers"],
   ["quotes", "curly brackets", "parentheses", "square brackets"],
   ["numbers and strings", "other arrays", "booleans", "all of the above"],
   ["commas", "curly brackets", "quotes", "parentheses"],
@@ -20,15 +20,20 @@ var correctAnswers = ["alerts", "parentheses", "all of the above", "parentheses"
 
 //When hit start button: clear html, start timer, and ask 1st question
 function question1(){
+    var count = 1
     var question1 = document.createElement("h1");
     question1.textContent = questions[0]
     mainContentEl.appendChild(question1)
-
+//For loop for answers
     for ( i = 0; i < answers[0].length; i++){
         var buttons = document.createElement("button")
         buttons.textContent = answers[0][i]
+        buttons.setAttribute("class", "button" + count++)
+        buttons.setAttribute("style", "display:block; margin-bottom:5px")
         mainContentEl.appendChild(buttons)
     }
+
+
 }
 
 
