@@ -1,22 +1,11 @@
 var timer = document.getElementById("timer");
 var startButton = document.getElementById("startButton")
-var timeEl = document.querySelector(".time");
-var mainEl = document.getElementById("main");
-
+var mainContentEl = document.getElementById("mainContent")
 
 
 
 
 //When hit start button: clear html, start timer, and ask 1st question
-
-
-
-  // Clear todoList element and update todoCountSpan
-  todoList.innerHTML = "";
-
-
-
-
 
 
 
@@ -34,4 +23,18 @@ function setTime() {
 
   }, 1000);
 }
+
+startButton.addEventListener("click", function() {
+   // Clear todoList element and update todoCountSpan
+    mainContentEl.innerHTML = "";
+    setTime();
+
+});
+
+
+
+
+
+
+
 
