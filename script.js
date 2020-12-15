@@ -5,6 +5,21 @@ var mainEl = document.getElementById("main");
 
 
 
+
+
+//When hit start button: clear html, start timer, and ask 1st question
+
+
+
+  // Clear todoList element and update todoCountSpan
+  todoList.innerHTML = "";
+
+
+
+
+
+
+
 //Set Timer
 var secondsLeft = 75;
 
@@ -19,5 +34,4 @@ function setTime() {
 
   }, 1000);
 }
-    setTime();
 
