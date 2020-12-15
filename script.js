@@ -11,10 +11,10 @@ var questions = [
 
 var answers = [
   ["1. string", "2. booleans", "3. alerts", "4. numbers"],
-  ["quotes", "curly brackets", "parentheses", "square brackets"],
-  ["numbers and strings", "other arrays", "booleans", "all of the above"],
-  ["commas", "curly brackets", "quotes", "parentheses"],
-  ["JavaScript", "terminal/bash", "for loops", "console.log"],
+  ["1. quotes", "2. curly brackets", "3. parentheses", "4. square brackets"],
+  ["1. numbers and strings", "2. other arrays", "3. booleans", "4. all of the above"],
+  ["1. commas", "2. curly brackets", "3. quotes", "4. parentheses"],
+  ["1. JavaScript", "2. terminal/bash", "3. for loops", "4. console.log"],
 ];
 var correctAnswers = ["alerts", "parentheses", "all of the above", "parentheses", "console.log"];
 
