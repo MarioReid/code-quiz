@@ -3,7 +3,7 @@
 ## Description 
 This project was to create a code quiz in which I used bootstrap and w3schools to generate questions and answers using buttons.
 
- Click here to visit my deployed project.
+ https://marioreid.github.io/code-quiz/ Click here to visit my deployed project.
 
 ## Installation
 
