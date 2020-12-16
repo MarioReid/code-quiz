@@ -24,7 +24,7 @@ function question1(){
     var question1 = document.createElement("h1");
     question1.textContent = questions[0]
     mainContentEl.appendChild(question1)
-//For loop for answers
+//For loop for answers and blocks added
     for ( i = 0; i < answers[0].length; i++){
         var buttons = document.createElement("button")
         buttons.textContent = answers[0][i]
